@@ -70,6 +70,8 @@ def handle_message(update, context):
 
         update.message.reply_text(msg)
 
+#TESTCOILENCHUA
+
 def main():
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
